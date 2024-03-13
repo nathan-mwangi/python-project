@@ -44,3 +44,69 @@ book_price_123=40
 
 x=y=z=10 #assigning one value to multilple variables
 x,y,z=30,40,50 #multiple values different variables
+#casting In pytyhon
+firstname="nathan"
+secondname=252535
+lastname=firstname+" "+str(secondname)
+print("my lastname is "+lastname)
+
+
+
+price=1
+qty=8
+total=price*qty
+myanswer1="the total is:"+str(total)+"kenya shillings"
+print(myanswer1)
+
+firstname="nathan"
+secondname=("kimani")
+thirdname=firstname+" "+str(secondname)
+print("my thirdname is "+thirdname)
+
+
+#logical operator
+age=20
+nationality=("rwanda")
+
+if nationality=="kenyan" and age>=35:
+    print("you can be president")
+
+else:
+    print("you are not president")
+
+
+
+
+y=500
+x=3
+
+ans=y%x
+print(ans)
+if ans==0:
+    print("y is an even number")
+else:
+   print("y is an odd number")
+
+
+   #loops
+   #the while loop---testing the break key words in loops
+   x=1
+   while x<=5:
+       if x==3:
+           break
+       print(x)
+       x+=1
+
+
+i= 0
+while i < 6:
+    i += 1
+    if i == 3:
+        continue
+    print(i)
+
+
+
+
+
+

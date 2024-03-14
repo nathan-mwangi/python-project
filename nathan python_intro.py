@@ -110,3 +110,59 @@ while i < 6:
 
 
 
+
+
+
+
+
+
+
+
+"""
+    x=-2
+    if x>3:
+        print("x is greater than 3")
+    elif x==3:
+        print("x is equal to 3")
+    else:
+     print("x is less than 3")
+
+
+     country=input("enter country:")
+     if country=="rwanda":
+         print("east african")
+     elif country=="kenya":
+      print("east african")
+     elif country=="uganda":
+       print("east african")
+     elif country=="congo":
+        print("east african")
+     else:
+      print("unknown country")
+            """
+"""
+x=2
+while x<=10:
+    if x == 3 or x == 5:
+
+        x+=1
+        continue
+    print("the number is ",x)
+    x+= 1
+
+else:
+ print("ended")
+ """
+
+total=0
+number=1
+
+
+
+x=1
+while x<=10:
+    if x % 2 !=0:# check if the number is odd
+        total += x# add the odd number to the total
+    x += 1
+
+    print("the sum of odd numbers from 1 to 10 is ",total)

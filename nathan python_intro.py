@@ -165,4 +165,18 @@ while x<=10:
         total += x# add the odd number to the total
     x += 1
 
-    print("the sum of odd numbers from 1 to 10 is ",total)
+    print("the sum of odd numbers is ",total)
+
+     #executing a block of number of times specified in a range
+    for y in range(5):
+        print ("nathan")
+
+
+        for m in range(1,6,2):
+            print(m)
+
+numbers=(1,3,5,7,9)
+total=0
+for num in numbers:
+    total+=num
+print("the sum of odd numbers from 1 to 10 is ",total)
